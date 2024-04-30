@@ -1,7 +1,7 @@
 bot.username:
-  FuckingInstagramBot
+  BOT-USERNAME
 bot.token:
-  6756997887:AAHCoenpEhbjYwMC_LUOyD43hrlI9Uzx0oA
+  BOT-TOKEN
 
 spring:
   datasource:
