@@ -1,0 +1,23 @@
+bot.username:
+  FuckingInstagramBot
+bot.token:
+  6756997887:AAHCoenpEhbjYwMC_LUOyD43hrlI9Uzx0oA
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 1
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+server:
+  port: 8081
