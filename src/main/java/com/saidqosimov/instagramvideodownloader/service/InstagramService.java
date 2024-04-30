@@ -24,7 +24,7 @@ import java.util.*;
 public class InstagramService {
     private final RestTemplate restTemplate;
     // Bu yerga shaxsiy api key ni qo'shingiz kerak
-    private String key = "c38122e158mshd98f96a88fc75c1p1440d6jsn02bdec44bdfe";
+    private String key = "YOUR-API-ACCESS-KEY";
 
     public InstagramService(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
